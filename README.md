@@ -9,7 +9,6 @@ The admin one shows the same info for all the users, and is capable of almost ev
 # deploying
 It requires the php package and a web server like apache or nginx.
 The database template is in database.sql.
-The default users is 'admin' password 'admin' and 'teste' password 'teste'.
 All the configuration for the application like the admin password/user, timezone constant, goes in the 'Classes\Config.php' class file.
 To generate the hash for the passes you need just to paste this in your shell (assuming you already have php) ``` php -r "echo hash('sha256', 'YOUR-PASSWORD')\n;" ```.
 # disclaimer
