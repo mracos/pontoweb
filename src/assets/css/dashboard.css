@@ -1,0 +1,40 @@
+#panel {
+    width: 40%;
+}
+
+#circlered {
+    border-radius: 50%;
+    background-color: #FF0300;
+    width: 12px;
+    height: 12px;
+    margin: auto;
+}
+
+#circlegreen {
+    border-radius: 50%;
+    background-color: #1AFF00;
+    width: 12px;
+    height: 12px;
+    margin: auto;
+}
+
+.inputbox {
+    padding: 5px;
+    display:inline;
+    background: black;
+    color: white;
+    border-radius: 9px;
+}
+
+.inputbox:focus, .inputbox:hover {
+    background: white;
+    color: black;
+}
+
+.row {
+
+}
+
+.column {
+
+}

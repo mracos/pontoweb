@@ -1,0 +1,5 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS pontoweb (user TEXT UNIQUE, password TEXT, stamp TIMESTAMP, logged INT, lastlogged INT, hours REAL);
+INSERT INTO "pontoweb" VALUES('teste', '46070d4bf934fb0d4b06d9e2c46e346944e322444900a435d7d9a95e6d7435f5', 0, 0, 0, 0);
+COMMIT;

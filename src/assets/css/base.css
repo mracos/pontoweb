@@ -1,0 +1,69 @@
+* {
+    /*border: dotted blue 1px;*/
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#table {
+    width: 85%;
+    margin: auto;
+}
+
+#panel {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 12%;
+    width: 30%;
+    border: 1px grey solid;
+    padding: 3em;
+    border-radius: 10px;
+}
+
+#title {
+    text-align: center;
+    margin: 5px;
+    font-family: 'Courier New';
+    font-size: 40px;
+}
+
+#inputbox input {
+    padding: 10px;
+    display:inline;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 5px;
+}
+
+#inputbox input:focus, #inputbox input:hover {
+    background: white;
+    color:black;
+    border: 1px solid white;
+}
+
+#clock {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+#contact a {
+    color: grey;
+}
+
+#contact a:hover {
+    color:white;
+}

@@ -1,0 +1,18 @@
+/* 	Clock in/out system made in PHP with mysql 
+	as the database backend, it uses the time 
+	from the "PHP server" to the accounting.
+	Default admin user and pass is:
+	user: admin
+	pass: defined in config.php
+*/
+
+V0.1:
+	-First version.
+	Know Bugs:
+		-Can only change the password for the 
+		regular account once
+	-Future (hopefully) features:
+		-Clock in javascript on the login page
+		-Change the username within the regular
+		account
+		-Reset the hours
